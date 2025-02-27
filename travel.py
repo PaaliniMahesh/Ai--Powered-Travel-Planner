@@ -76,7 +76,7 @@ if st.button("Get Travel Plan"):
             ])
 
             # Initialize the Google GenAI chat model
-            chat_model = ChatGoogleGenerativeAI(api_key="AIzaSyDLQ_21-2FgM1-qsKaFI7sfWCC8YdE9qtM", model="gemini-1.5-pro")
+            chat_model = ChatGoogleGenerativeAI(api_key="your api key", model="gemini-1.5-pro")
 
             # Define parser to parse output as plain text
             parser = StrOutputParser()
